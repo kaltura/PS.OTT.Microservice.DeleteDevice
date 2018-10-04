@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <Authors>Kaltura Professional Services</Authors>
+    <Company>Kaltura</Company>
+    <Product>PS.OTT.Microservice.DeleteDevice</Product>
+    <PackageId>PS.OTT.Microservice.DeleteDevice</PackageId>
+    <Version>999.999.0.0</Version>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description></Description>
+    <Copyright>Copyright © 2018</Copyright>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+	<IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+  </PropertyGroup>
+  <ItemGroup>
+   <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5"/>
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.1"/>
+	<PackageReference Include="PS.OTT.Microservice" Version="1.24.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2"/>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0"/>
+  </ItemGroup>
+</Project>
