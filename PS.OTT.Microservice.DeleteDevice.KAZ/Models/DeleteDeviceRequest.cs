@@ -1,4 +1,4 @@
-namespace PS.OTT.Microservice.DeleteDevice.Models.KAZ
+namespace PS.OTT.Microservice.DeleteDevice.KAZ.Models
 {
     public class DeleteDeviceRequest
     {
