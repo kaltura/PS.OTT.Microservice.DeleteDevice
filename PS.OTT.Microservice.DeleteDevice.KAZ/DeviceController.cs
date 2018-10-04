@@ -19,10 +19,10 @@ using PS.OTT.Core.MicroService.Infrastructure.Logging;
 using PS.OTT.Core.MicroService.Infrastructure.Swagger;
 using PS.OTT.Core.MicroService.Models.Common;
 using PS.OTT.Core.MicroService.Models.Exceptions;
-using PS.OTT.Microservice.DeleteDevice.Models;
+using PS.OTT.Microservice.DeleteDevice.KAZ.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace PS.OTT.Microservice.DeleteDevice
+namespace PS.OTT.Microservice.DeleteDevice.KAZ
 {
 	[KalturaAuthorize()]
 	[Route("api/p/{groupId:int}/service/[controller]/action/[action]")]

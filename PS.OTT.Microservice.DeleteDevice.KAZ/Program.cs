@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using PS.OTT.Core.MicroService;
 
-namespace PS.OTT.Microservice.DeleteDevice
+namespace PS.OTT.Microservice.DeleteDevice.KAZ
 {
 	public class Program
 	{

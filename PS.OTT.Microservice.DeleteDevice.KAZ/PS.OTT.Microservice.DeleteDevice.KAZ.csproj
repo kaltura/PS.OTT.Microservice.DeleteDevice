@@ -2,8 +2,8 @@
   <PropertyGroup>
     <Authors>Kaltura Professional Services</Authors>
     <Company>Kaltura</Company>
-    <Product>PS.OTT.Microservice.DeleteDevice</Product>
-    <PackageId>PS.OTT.Microservice.DeleteDevice</PackageId>
+    <Product>PS.OTT.Microservice.DeleteDevice.KAZ</Product>
+    <PackageId>PS.OTT.Microservice.DeleteDevice.KAZ</PackageId>
     <Version>999.999.0.0</Version>
     <NeutralLanguage>en</NeutralLanguage>
     <Description></Description>

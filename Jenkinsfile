@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         WORKSPACE = "${pwd()}"
-        SOLUTION_ID = 'PS.OTT.Microservice.DeleteDevice'
+        SOLUTION_ID = 'PS.OTT.Microservice.DeleteDevice.KAZ'
         SOLUTION_FILENAME = "${SOLUTION_ID}.sln"
         PUBLISH_PROJECT_TARGET_DIR = "${SOLUTION_ID}"
         PUBLISH_PROJECT_TARGET_FILENAME = "${SOLUTION_ID}.csproj"

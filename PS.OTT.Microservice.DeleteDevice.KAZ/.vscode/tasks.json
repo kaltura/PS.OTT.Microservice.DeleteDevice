@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/PS.OTT.Microservice.DeleteDevice.csproj"
+                "${workspaceFolder}/PS.OTT.Microservice.DeleteDevice.KAZ.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

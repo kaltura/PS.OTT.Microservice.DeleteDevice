@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "PS.OTT.Microservice.DeleteDevice": {
+    "PS.OTT.Microservice.DeleteDevice.KAZ": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
