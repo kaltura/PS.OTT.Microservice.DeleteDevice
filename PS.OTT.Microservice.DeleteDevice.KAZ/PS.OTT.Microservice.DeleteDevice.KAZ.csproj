@@ -11,6 +11,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="PS.OTT.Microservice" Version="1.29.3" />
+    <PackageReference Include="PS.OTT.Microservice" Version="1.29.4" />
   </ItemGroup>
 </Project>
