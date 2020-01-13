@@ -35,6 +35,7 @@ namespace PS.OTT.Microservice.DeleteDevice.KAZ
             var loggerFactory = serviceProvider.GetRequiredService<IMicroserviceLoggerFactory>();
             var startupLogger = loggerFactory.CreateLogger(nameof(Startup));
 
+            services.AddMemoryCache();
             services.AddScoped<IPhoenix, Phoenix>();
             services.AddScoped(sp =>
             {
