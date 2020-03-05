@@ -20,13 +20,9 @@ namespace PS.OTT.Microservice.DeleteDevice.KAZ
                                               "This page defines the micro-service that will be used to implement " +
                                               "this feature. Microservice specification: " +
             "https://kaltura.atlassian.net/wiki/spaces/VKE/pages/584254850/Micro-services#Micro-services-DeleteDeviceMicro-service";
-            MicroService.ConfigureServices = ConfigureServices;
-            MicroService.ConfigureApplication = ConfigureApplication;
+            MicroService.ConfigureServicesAfterAddControllers = ConfigureServices;
+            
             MicroService.Run(args);
-        }
-
-        private static void ConfigureApplication(IApplicationBuilder app, IWebHostEnvironment env)
-        {
         }
 
         private static void ConfigureServices(IServiceCollection services)
