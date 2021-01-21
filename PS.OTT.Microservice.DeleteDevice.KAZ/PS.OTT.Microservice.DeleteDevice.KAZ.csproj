@@ -11,7 +11,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="PS.OTT.Core.KalturaClientExtensions" Version="1.0.10" />
-    <PackageReference Include="PS.OTT.Microservice" Version="1.33.9" />
+    <PackageReference Include="PS.OTT.Core.KalturaClientExtensions" Version="1.0.17" />
+    <PackageReference Include="PS.OTT.Microservice" Version="1.36.6" />
   </ItemGroup>
 </Project>

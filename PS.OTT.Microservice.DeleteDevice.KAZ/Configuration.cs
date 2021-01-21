@@ -1,4 +1,4 @@
-﻿using PS.OTT.Core.MicroService.Infrastructure;
+﻿using PS.OTT.Core.MicroService.Infrastructure.Configuration;
 
 namespace PS.OTT.Microservice.DeleteDevice.KAZ
 {

@@ -4,11 +4,9 @@ using System.Threading.Tasks;
 using Kaltura;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PS.OTT.Core.MicroService.Controllers.Common;
 using PS.OTT.Core.MicroService.Infrastructure.Authentication;
+using PS.OTT.Core.MicroService.Infrastructure.Exceptions;
 using PS.OTT.Core.MicroService.Infrastructure.Swagger;
-using PS.OTT.Core.MicroService.Models.Common;
-using PS.OTT.Core.MicroService.Models.Exceptions;
 using PS.OTT.Microservice.DeleteDevice.KAZ.Models;
 using PS.OTT.Microservice.DeleteDevice.KAZ.PhoenixWrapper;
 using Swashbuckle.AspNetCore.Annotations;
@@ -17,12 +15,12 @@ namespace PS.OTT.Microservice.DeleteDevice.KAZ
 {
     [KalturaAuthorize]
     [Route("api/p/{groupId:int}/service/[controller]/action/[action]")]
-    public class DeviceController : BaseApiController
+    public class DeleteDevice : Controller
     {
-        private readonly ILogger<DeviceController> _logger;
+        private readonly ILogger<DeleteDevice> _logger;
         private readonly IPhoenix _phoenix;
 
-        public DeviceController(ILogger<DeviceController> logger, IPhoenix phoenix)
+        public DeleteDevice(ILogger<DeleteDevice> logger, IPhoenix phoenix)
         {
             _logger = logger;
             _phoenix = phoenix;
