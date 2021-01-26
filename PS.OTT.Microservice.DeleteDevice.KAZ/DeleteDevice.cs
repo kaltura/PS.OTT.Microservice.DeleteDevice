@@ -28,9 +28,6 @@ namespace PS.OTT.Microservice.DeleteDevice.KAZ
 
         [HttpPost]
         [SwaggerImplementationNotes("Deletion of a household device except devices of an 'STB' type.")]
-        [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(CommonApiResponse<DeleteDeviceResponse>))]
-        [SwaggerResponse((int)HttpStatusCode.BadRequest, Type = typeof(CommonApiResponse<DeleteDeviceResponse>), 
-            Description = "Can't remove device of type STB.")]
         public async Task<IActionResult> Delete([FromBody] DeleteDeviceRequest requestModel)
         {
             var deviceFamilyId = await _phoenix.GetDeviceFamilyIdAsync(requestModel.BrandId);
