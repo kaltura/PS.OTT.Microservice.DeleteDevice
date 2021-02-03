@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace PS.OTT.Microservice.DeleteDevice.KAZ.PhoenixWrapper
+namespace PS.OTT.Microservice.KAZ.DeleteDevice.PhoenixWrapper
 {
     public interface IPhoenix
     {

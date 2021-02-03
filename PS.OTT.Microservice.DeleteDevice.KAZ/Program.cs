@@ -7,10 +7,10 @@ using PS.OTT.Core.MicroService;
 using PS.OTT.Core.MicroService.Infrastructure;
 using PS.OTT.Core.MicroService.Infrastructure.Authentication;
 using PS.OTT.Core.MicroService.Infrastructure.GroupId;
-using PS.OTT.Microservice.DeleteDevice.KAZ.PhoenixWrapper;
+using PS.OTT.Microservice.KAZ.DeleteDevice.PhoenixWrapper;
 using TCMClient;
 
-namespace PS.OTT.Microservice.DeleteDevice.KAZ
+namespace PS.OTT.Microservice.KAZ.DeleteDevice
 {
     public class Program
     {

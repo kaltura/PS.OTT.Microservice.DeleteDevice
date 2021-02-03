@@ -1,6 +1,6 @@
 ﻿using PS.OTT.Core.MicroService.Infrastructure.Configuration;
 
-namespace PS.OTT.Microservice.DeleteDevice.KAZ
+namespace PS.OTT.Microservice.KAZ.DeleteDevice
 {
     [Configuration]
     public class Configuration

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Kaltura;
 using Kaltura.Services;
 
-namespace PS.OTT.Microservice.DeleteDevice.KAZ.PhoenixWrapper
+namespace PS.OTT.Microservice.KAZ.DeleteDevice.PhoenixWrapper
 {
     public class Phoenix : IPhoenix
     {
